@@ -8,6 +8,6 @@
     "lowdb": "^1.0.0"
   },
   "scripts": {
-    "server": "node api/server.js"
+    "start": "node api/server.js"
   }
 }
