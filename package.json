@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "apollo-server": "^2.9.6",
-    "graphql-tag": "^2.10.1"
+    "graphql-tag": "^2.10.1",
+    "lowdb": "^1.0.0"
   },
   "scripts": {
     "server": "node api/server.js"

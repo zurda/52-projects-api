@@ -6,3 +6,5 @@ alt="Screen grab of graphql playground" width="500" />
 1. Clone
 2. Run `yarn && yarn server`
 3. Go to `http://localhost:4000`
+
+Uses the file system to generate a list of projects

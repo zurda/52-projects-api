@@ -1,32 +1,14 @@
-const gql = require('graphql-tag')
 const { ApolloServer } = require('apollo-server')
-
-const typeDefs = gql`
-  type Project {
-    name: String!
-    number: Int!
-    repo: String
-    url: String
-  }
-  type Query {
-    exampleProject: Project!
-  }
-`
-
-const resolvers = {
-  Query: {
-    exampleProject: () => ({
-      name: 'Hangman React',
-      number: 1,
-      repo: 'https://github.com/zurda/hangman-react',
-      url: 'https://zurda.github.io/hangman-react/'
-    })
-  }
-}
+const { models, db } = require('../db')
+const typeDefs = require('./schema')
+const resolvers = require('./resolvers')
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
+  context() {
+    return { models, db }
+  }
 })
 
 server.listen(4000)
