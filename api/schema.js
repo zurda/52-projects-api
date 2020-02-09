@@ -6,9 +6,20 @@ const typeDefs = gql`
     id: String!
     repo: String
     url: String
+    type: String
   }
+
+  input ProjectsInput {
+    type: String
+  }
+
+  input ProjectInput {
+    name: String!
+  }
+
   type Query {
-    projects: [Project]!
+    projects(input: ProjectsInput): [Project]!
+    project(input:ProjectInput): Project
   }
 `
 

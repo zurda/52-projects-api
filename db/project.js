@@ -4,7 +4,12 @@ const createProjectModel = db => {
       return db.get('project')
         .filter(filter)
         .value()
-    }
+    },
+    findOne(filter) {
+      return db.get('project')
+        .find(filter)
+        .value()
+    },
   }
 }
 
