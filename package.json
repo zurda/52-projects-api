@@ -7,6 +7,6 @@
     "graphql-tag": "^2.10.1"
   },
   "scripts": {
-    "server": "node api/src/server.js"
+    "server": "node api/server.js"
   }
 }
