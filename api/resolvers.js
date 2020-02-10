@@ -1,12 +1,10 @@
 module.exports = {
   Query: {
     projects(_, { input }, { models }) {
-      if (input.type) return models.Project
-        .findMany({ type: input.type })
-      return models.Project.findMany()
+      return models.Project.findMany(input)
     },
     project(_, { input }, { models }) {
-      return models.Project.findOne({ name: input.name })
+      return models.Project.findOne(input)
     },
   }
 }
