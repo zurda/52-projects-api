@@ -1,3 +1,5 @@
+const nanoid = require('nanoid')
+
 const createProjectModel = db => {
   return {
     findMany(filter) {
@@ -10,6 +12,13 @@ const createProjectModel = db => {
         .find(filter)
         .value()
     },
+    create(project) {
+      const newProject = { id: nanoid(), createdAt: Date.now(), ...project }
+      db.get('project')
+        .push(newProject)
+        .write()
+      return newProject
+    }
   }
 }
 

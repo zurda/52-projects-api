@@ -6,5 +6,10 @@ module.exports = {
     project(_, { input }, { models }) {
       return models.Project.findOne(input)
     },
+  },
+  Mutation: {
+    createProject(_, { input }, { models }) {
+      return models.Project.create(input)
+    }
   }
 }

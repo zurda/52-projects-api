@@ -1,6 +1,7 @@
 {
   "project": {
     "id": "string",
+    "number": "string",
     "name": "string",
     "repo": "string",
     "url": "string",
