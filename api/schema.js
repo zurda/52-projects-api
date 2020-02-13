@@ -1,17 +1,23 @@
 const { gql } = require('apollo-server')
 
 const typeDefs = gql`
+  enum ProjectType {
+    FRONTEND 
+    BACKEND 
+    FULLSTACK
+  }
+
   type Project {
     name: String!
     id: String!
     number: Int!
     repo: String
     url: String
-    type: String
+    type: ProjectType
   }
 
   input ProjectsInput {
-    type: String
+    type: ProjectType
   }
 
   input ProjectInput {
@@ -25,7 +31,7 @@ const typeDefs = gql`
 
   input NewProject {
     name: String! 
-    type: String!
+    type: ProjectType!
     number: Int!
   }
 
