@@ -63,6 +63,7 @@ query {
 
 #### Add a project: 
 
+```
 mutation {
   createProject(input: {name: "new project", number: 5, type: BACKEND}) {
     name 
@@ -71,6 +72,7 @@ mutation {
     number
   }
 }
+```
 
 #### Extending interface 
 
