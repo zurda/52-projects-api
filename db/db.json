@@ -63,30 +63,6 @@
       "todo": [
         "Add tests"
       ]
-    },
-    {
-      "id": "dYV4rGFCkzJkWbmWvY0fO",
-      "createdAt": 1581629163816,
-      "name": "new project",
-      "type": "FRONTEND",
-      "number": 9,
-      "todo": [
-        "Add tests"
-      ]
-    },
-    {
-      "id": "tal9L4dUvrShsrZsK-DPL",
-      "createdAt": 1581955556577,
-      "name": "new project",
-      "type": "BACKEND",
-      "number": 5
-    },
-    {
-      "id": "_4H_Ylqk0rjT7ESGG8YJ3",
-      "createdAt": 1581955565609,
-      "name": "new project",
-      "type": "BACKEND",
-      "number": 5
     }
   ]
 }

@@ -13,7 +13,7 @@ const createProjectModel = db => {
         .value()
     },
     create(project) {
-      const newProject = { id: nanoid(), createdAt: Date.now(), ...project }
+      const newProject = { todo: ["Many things"], id: nanoid(), createdAt: Date.now(), ...project }
       db.get('project')
         .push(newProject)
         .write()

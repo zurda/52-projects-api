@@ -14,7 +14,7 @@ module.exports = {
   },
   Project: {
     __resolveType(project) {
-      return project.isComplete === true ? 'CompleteProject' : 'OngoingProject'
+      return (project.todo && project.todo.length > 0 ? 'OngoingProject' : 'CompleteProject')
     }
   }
 }
