@@ -11,5 +11,10 @@ module.exports = {
     createProject(_, { input }, { models }) {
       return models.Project.create(input)
     }
+  },
+  Project: {
+    __resolveType(project) {
+      return project.isComplete === true ? 'CompleteProject' : 'OngoingProject'
+    }
   }
 }

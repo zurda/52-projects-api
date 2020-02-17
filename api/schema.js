@@ -7,7 +7,7 @@ const typeDefs = gql`
     FULLSTACK
   }
 
-  type Project {
+  interface Project {
     name: String!
     id: String!
     number: Int!
@@ -15,6 +15,27 @@ const typeDefs = gql`
     url: String
     type: ProjectType
   }
+
+  type CompleteProject implements Project {
+    name: String!
+    id: String!
+    number: Int!
+    repo: String
+    url: String
+    type: ProjectType
+    isComplete: Boolean!
+  } 
+
+    type OngoingProject implements Project {
+    name: String!
+    id: String!
+    number: Int!
+    repo: String
+    url: String
+    type: ProjectType
+    isTested: Boolean!
+    todo: [String]!
+  } 
 
   input ProjectsInput {
     type: ProjectType

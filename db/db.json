@@ -6,7 +6,10 @@
       "number": 1,
       "repo": "https://github.com/zurda/hangman-react",
       "url": "https://zurda.github.io/hangman-react/",
-      "type": "FRONTEND"
+      "type": "FRONTEND",
+      "todo": [
+        "Add tests"
+      ]
     },
     {
       "name": "My Storybook",
@@ -14,7 +17,10 @@
       "number": 2,
       "repo": "https://github.com/zurda/my-storybook",
       "url": "https://zurda.github.io/my-storybook/",
-      "type": "FRONTEND"
+      "type": "FRONTEND",
+      "todo": [
+        "Add tests"
+      ]
     },
     {
       "name": "Portfolio",
@@ -22,7 +28,8 @@
       "number": 3,
       "repo": "https://github.com/zurda/portfolio",
       "url": "https://zurda.github.io/portfolio/",
-      "type": "FRONTEND"
+      "type": "FRONTEND",
+      "isComplete": true
     },
     {
       "name": "Logbook FE",
@@ -30,7 +37,10 @@
       "number": 4,
       "repo": "https://github.com/zurda/coding-logbook",
       "url": "https://zurda.github.io/coding-logbook/",
-      "type": "FRONTEND"
+      "type": "FRONTEND",
+      "todo": [
+        "Add tests"
+      ]
     },
     {
       "name": "Logbook BE",
@@ -38,7 +48,10 @@
       "number": 5,
       "repo": "https://github.com/zurda/backend-coding-logbook",
       "url": "https://zurda.github.io/coding-logbook/",
-      "type": "BACKEND"
+      "type": "BACKEND",
+      "todo": [
+        "Add tests"
+      ]
     },
     {
       "name": "52 Projects API",
@@ -46,14 +59,34 @@
       "number": 6,
       "repo": "https://github.com/zurda/52-projects-api",
       "url": "https://fifty-two-projects.herokuapp.com/",
-      "type": "BACKEND"
+      "type": "BACKEND",
+      "todo": [
+        "Add tests"
+      ]
     },
     {
       "id": "dYV4rGFCkzJkWbmWvY0fO",
       "createdAt": 1581629163816,
       "name": "new project",
       "type": "FRONTEND",
-      "number": 9
+      "number": 9,
+      "todo": [
+        "Add tests"
+      ]
+    },
+    {
+      "id": "tal9L4dUvrShsrZsK-DPL",
+      "createdAt": 1581955556577,
+      "name": "new project",
+      "type": "BACKEND",
+      "number": 5
+    },
+    {
+      "id": "_4H_Ylqk0rjT7ESGG8YJ3",
+      "createdAt": 1581955565609,
+      "name": "new project",
+      "type": "BACKEND",
+      "number": 5
     }
   ]
 }
