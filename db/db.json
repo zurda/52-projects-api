@@ -63,6 +63,47 @@
       "todo": [
         "Add tests"
       ]
+    },
+    {
+      "name": "notes",
+      "id": "PPpdmklmEmfdsibx",
+      "number": 7,
+      "repo": "https://github.com/zurda/notes-notes",
+      "url": "notesnotes.netlify.app/",
+      "type": "FRONTEND",
+      "todo": [
+        "Add notes"
+      ]
+    },
+    {
+      "name": "RedwoodJS",
+      "id": "MKLWEFMLSmdsEmfdsibx",
+      "number": 8,
+      "repo": "https://github.com/zurda/redwoodjs",
+      "url": "https://redwood-playground.netlify.app/",
+      "type": "FULLSTACK",
+      "todo": [
+        "Add tests"
+      ]
+    },
+    {
+      "name": "Redwood movie reviews",
+      "id": "nkjno;KOMOMklmibx",
+      "number": 9,
+      "repo": "https://github.com/zurda/redwoodJS/blob/master/api/src/services/movie/movie.js",
+      "url": "https://redwood-playground.netlify.app/movie",
+      "type": "FULLSTACK",
+      "todo": [
+        "Add tests"
+      ]
+    },
+    {
+      "name": "Netlify functions",
+      "id": "nkjswmelfkmMklmibx",
+      "number": 10,
+      "repo": "https://github.com/zurda/serverless-form",
+      "url": "https://github.com/zurda/serverless-form",
+      "type": "FULLSTACK"
     }
   ]
 }
