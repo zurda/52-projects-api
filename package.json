@@ -7,7 +7,7 @@
     "dotenv": "^8.2.0",
     "graphql-tag": "^2.10.1",
     "lowdb": "^1.0.0",
-    "nanoid": "^2.1.11"
+    "nanoid": "^3.1.31"
   },
   "scripts": {
     "start": "node server.js"
