@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "apollo-server": "^2.25.3",
+    "apollo-server": "^2.25.4",
     "dotenv": "^8.2.0",
     "graphql-tag": "^2.10.1",
     "lowdb": "^1.0.0",
